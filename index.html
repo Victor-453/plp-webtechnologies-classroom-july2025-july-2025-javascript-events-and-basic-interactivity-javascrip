@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Web Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Interactive Web Page with JavaScript</h1>
+
+  <!-- Theme Toggle -->
+  <button id="toggleTheme">Toggle Light/Dark Mode</button>
+
+  <!-- Counter -->
+  <div id="counterSection">
+    <h2>Click Counter Game</h2>
+    <p>Clicks: <span id="clickCount">0</span></p>
+    <button id="incrementBtn">Click Me!</button>
+  </div>
+
+  <!-- Form -->
+  <h2>Sign Up Form</h2>
+  <form id="signupForm">
+    <label>
+      Name:
+      <input type="text" id="name">
+      <span class="error" id="nameError"></span>
+    </label><br><br>
+
+    <label>
+      Email:
+      <input type="text" id="email">
+      <span class="error" id="emailError"></span>
+    </label><br><br>
+
+    <label>
+      Password:
+      <input type="password" id="password">
+      <span class="error" id="passwordError"></span>
+    </label><br><br>
+
+    <button type="submit">Submit</button>
+    <p id="formMessage"></p>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
